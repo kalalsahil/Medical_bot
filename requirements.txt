@@ -1,0 +1,11 @@
+llama-index==0.12.46
+chromadb==1.0.15
+llama-index-vector-stores-chroma==0.4.2
+llama-index-embeddings-huggingface==0.5.5
+llama-index-llms-ollama==0.6.2
+sentence-transformers==5.0.0
+pyttsx3==2.98
+SpeechRecognition==3.14.3
+pyaudio==0.2.14
+streamlit==1.46.1
+audio_recorder_streamlit==0.0.10

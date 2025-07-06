@@ -1,0 +1,9 @@
+env
+.env
+logs
+experiments
+__pycache__
+.pytest_cache
+build
+QApplication.egg-info
+chroma_db
