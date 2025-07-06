@@ -18,32 +18,32 @@ Voice input is supported, and the architecture is designed to easily extend to i
 
 ## 📁 Project Structure
 
-medical_chatbot_mvp/
-│
-├── dataIngestion/
-│ ├── embedding.py # Embedding logic using Sentence Transformers
-│ ├── extraction.py # Document loading and text extraction
-│ └── utils.py # Helper functions for ingestion
-│
-├── QASystem/
-│ ├── prompts.py # Prompt template for Ollama
-│ ├── tts.py # Optional text-to-speech (output audio)
-│ ├── voice.py # Speech-to-text handling
-│ ├── output.py # Text/audio output formatting
-│ └── utils.py # LLM and query engine wrapper
-│
-├── raw_docs/ # Folder for medical PDFs and documents
-│
-├── tests/ # Unit and integration test cases
-│
-├── utils/
-│ ├── exception.py # Custom error handling
-│ └── logger.py # Project logging setup
-│
-├── ingestion.py # Script to ingest and index documents
-├── main.py # Entry point for Streamlit chatbot app
-├── setup.py # Optional project packaging
-├── requirements.txt
+medical_chatbot_mvp/<br>
+│<br>
+├── dataIngestion/<br>
+│ ├── embedding.py # Embedding logic using Sentence Transformers<br>
+│ ├── extraction.py # Document loading and text extraction<br>
+│ └── utils.py # Helper functions for ingestion<br>
+│<br>
+├── QASystem/<br>
+│ ├── prompts.py # Prompt template for Ollama<br>
+│ ├── tts.py # Optional text-to-speech (output audio)<br>
+│ ├── voice.py # Speech-to-text handling<br>
+│ ├── output.py # Text/audio output formatting<br>
+│ └── utils.py # LLM and query engine wrapper<br>
+│<br>
+├── raw_docs/ # Folder for medical PDFs and documents<br>
+│<br>
+├── tests/ # Unit and integration test cases<br>
+│<br>
+├── utils/<br>
+│ ├── exception.py # Custom error handling<br>
+│ └── logger.py # Project logging setup<br>
+│<br>
+├── ingestion.py # Script to ingest and index documents<br>
+├── main.py # Entry point for Streamlit chatbot app<br>
+├── setup.py # Optional project packaging<br>
+├── requirements.txt<br>
 └── README.md
 
 ---
